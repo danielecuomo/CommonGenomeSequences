@@ -24,7 +24,6 @@ public class GRASP{
             
             sm.insertionPhase();
             OPT = Math.max(OPT, sm.length()); 
-            //break;
         }  
         
         return new Result(OPT, (float)T/1000);
